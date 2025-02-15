@@ -19,6 +19,8 @@ const GitHubBadge = () => {
         document.documentElement.classList.toggle("dark");
     };
 
+
+
     return (
         <div className={`min-h-screen ${darkMode ? "dark bg-gray-900 text-white" : "bg-gray-100 text-gray-900"}`}>
             {/* Progress Bar */}
@@ -39,7 +41,7 @@ const GitHubBadge = () => {
 
                 {/* Achievements Table */}
                 <div className="overflow-x-auto">
-                    <table className="w-full border-collapse border border-gray-400 text-center">
+                    <table className="w-full border-collapse border border-gray-400 text-center  font-semibold">
                         <thead>
                             <tr className="bg-gray-200 dark:bg-white">
                                 <th className="p-2 border">Badge</th>
@@ -74,7 +76,7 @@ const GitHubBadge = () => {
                                     </a>
                                 </td>
                                 <td className="border p-2">
-                                    <table className="w-full border border-gray-300">
+                                    <table className="w-full border border-gray-300 text-center">
                                         <thead>
                                             <tr>
                                                 <th className="p-2 border">DEFAULT</th>
@@ -165,7 +167,7 @@ const GitHubBadge = () => {
     <td className="border p-2">
         <table className="w-full border border-gray-300">
             <thead>
-                <tr className="bg-gray-200 dark:bg-gray-200">
+                <tr className="bg-gray-200 dark:bg-gray-200 ">
                     <th className="p-2 border">DEFAULT</th>
                     <th className="p-2 border">BRONZE</th>
                     <th className="p-2 border">SILVER</th>
