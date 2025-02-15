@@ -450,13 +450,177 @@ const GitHubBadge = () => {
         </table>
     </td>
 </tr>
-
-
                             {/* Add more badges here as needed */}
                         </tbody>
                     </table>
                 </div>
             </div>
+
+
+            
+            <div className="mt-8">
+    <h2 className="text-2xl font-bold text-center">👋 Achievement Skin Tone 👋</h2>
+    <p className="text-center mt-2">
+        Some achievements' appearance depends on your Emoji Skin Tone Preference.
+    </p>
+    <p className="text-center">
+        You can change your preferred Skin Tone by going to{" "}
+        <a
+            href="https://github.com/settings/appearance"
+            className="text-blue-500 hover:underline"
+        >
+            appearance settings
+        </a>.
+    </p>
+
+    {/* Table Wrapper for Scrollable View */}
+    <div className="overflow-x-auto mt-6">
+        <table className="min-w-full border border-gray-300 text-center">
+            {/* Table Header */}
+            <thead>
+                <tr className="bg-gray-200 dark:bg-gray-700">
+                    <th className="p-3 border">Badge</th>
+                    <th className="p-3 border">Name</th>
+                    <th className="p-3 border">Skin Tone Versions</th>
+                </tr>
+            </thead>
+
+            {/* Table Body */}
+            <tbody>
+                {/* Starstruck Badge */}
+                <tr className="border-b">
+                    <td className="p-3 border">
+                        <img
+                            src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png"
+                            width="60"
+                            alt="Starstruck"
+                        />
+                    </td>
+                    <td className="p-3 border font-semibold">Starstruck</td>
+                    <td className="p-3 border">
+                        {/* Row 1: Emoji Skin Tones */}
+                        <div className="flex justify-center space-x-4 mb-2">
+                            <span>👋</span>
+                            <span>👋🏻</span>
+                            <span>👋🏼</span>
+                            <span>👋🏽</span>
+                            <span>👋🏾</span>
+                            <span>👋🏿</span>
+                        </div>
+                        {/* Row 2: Badge Images */}
+                        <div className="flex justify-center space-x-4">
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone1.png"
+                                width="60"
+                                alt="Skin Tone 1"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone2.png"
+                                width="60"
+                                alt="Skin Tone 2"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone3.png"
+                                width="60"
+                                alt="Skin Tone 3"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone4.png"
+                                width="60"
+                                alt="Skin Tone 4"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone5.png"
+                                width="60"
+                                alt="Skin Tone 5"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Star-Struck/PNG/Skin-Tones/StarStruck_SkinTone6.png"
+                                width="60"
+                                alt="Skin Tone 6"
+                            />
+                        </div>
+                        {/* Row 3: Emoji Skin Tones */}
+                        <div className="flex justify-center space-x-4 mt-2">
+                            <span>👋</span>
+                            <span>👋🏻</span>
+                            <span>👋🏼</span>
+                            <span>👋🏽</span>
+                            <span>👋🏾</span>
+                            <span>👋🏿</span>
+                        </div>
+                    </td>
+                </tr>
+
+                {/* Quickdraw Badge */}
+                <tr className="border-b">
+                    <td className="p-3 border">
+                        <img
+                            src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone1.png"
+                            width="60"
+                            alt="Quickdraw"
+                        />
+                    </td>
+                    <td className="p-3 border font-semibold">Quickdraw</td>
+                    <td className="p-3 border">
+                        {/* Row 1: Emoji Skin Tones */}
+                        <div className="flex justify-center space-x-4 mb-2">
+                            <span>👋</span>
+                            <span>👋🏻</span>
+                            <span>👋🏼</span>
+                            <span>👋🏽</span>
+                            <span>👋🏾</span>
+                            <span>👋🏿</span>
+                        </div>
+                        {/* Row 2: Badge Images */}
+                        <div className="flex justify-center space-x-4">
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone1.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 1"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone2.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 2"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone3.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 3"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone4.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 4"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone5.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 5"
+                            />
+                            <img
+                                src="https://raw.githubusercontent.com/recodehive/awesome-github-profiles/main/assets/Badges/Quick-Draw/PNG/Skin-Tones/QuickDraw_SkinTone6.png"
+                                width="60"
+                                alt="Quickdraw Skin Tone 6"
+                            />
+                        </div>
+                        {/* Row 3: Emoji Skin Tones */}
+                        <div className="flex justify-center space-x-4 mt-2">
+                            <span>👋</span>
+                            <span>👋🏻</span>
+                            <span>👋🏼</span>
+                            <span>👋🏽</span>
+                            <span>👋🏾</span>
+                            <span>👋🏿</span>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
 
             {/* Scroll to Top Button */}
             {showScrollButton && (
